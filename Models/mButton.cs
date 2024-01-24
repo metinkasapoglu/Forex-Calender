@@ -8,10 +8,10 @@ namespace Models.ForexCalender
 {
     public class mButton : Button
     {
-        int borderRadius = 8;
+        #region Props
 
         [Category("Appearance")]
-        public int BorderRadius
+        public int _BorderRadius
         {
             get
             {
@@ -24,16 +24,43 @@ namespace Models.ForexCalender
             }
         }
 
+        #endregion
+
+        #region Fields
+
+        private int borderRadius = 8;
+        private bool isClicked;
+
+        #endregion
+        
+        #region Methods
+
         public mButton()
         {
             this.FlatStyle = FlatStyle.Flat;
             this.FlatAppearance.BorderSize = 0;
             this.Size = new Size(100, 23);
-            this.BackColor = SystemColors.GradientInactiveCaption;
+            this.BackColor = SystemColors.HotTrack;
+            this.ForeColor = SystemColors.Control;
             this.Resize += new EventHandler(Button_Resize);
+            this.Paint += ButtonNew_Paint;
         }
 
-        GraphicsPath GetFigurePath(Rectangle rect, int radius)
+        private void ButtonNew_Paint(object sender, PaintEventArgs e)
+        {
+            if (!isClicked)
+            {
+                using (Pen pen = new Pen(BackColor, 1))
+                {
+                    int radius = borderRadius;
+                    e.Graphics.DrawLine(pen, 1, 0, 1, this.ClientRectangle.Height);
+                    e.Graphics.DrawLine(pen, 0, this.ClientRectangle.Height - 1, this.ClientRectangle.Width, this.ClientRectangle.Height - 1);
+                    e.Graphics.DrawLine(pen, this.ClientRectangle.Width - 1, 0, this.ClientRectangle.Width - 1, this.ClientRectangle.Height);
+                }
+            }
+        }
+
+        private GraphicsPath GetFigurePath(Rectangle rect, int radius)
         {
             GraphicsPath path = new GraphicsPath();
             float curveSize = radius * 2F;
@@ -46,6 +73,16 @@ namespace Models.ForexCalender
             path.CloseFigure();
             return path;
         }
+
+        private void Button_Resize(object sender, EventArgs e)
+        {
+            if (borderRadius > this.Height)
+                borderRadius = this.Height;
+        }
+
+        #endregion
+
+        #region Overrides
 
         protected override void OnPaint(PaintEventArgs pevent)
         {
@@ -84,10 +121,31 @@ namespace Models.ForexCalender
                 }
             }
         }
-        void Button_Resize(object sender, EventArgs e)
+
+        protected override void OnMouseDown(MouseEventArgs mevent)
         {
-            if (borderRadius > this.Height)
-                borderRadius = this.Height;
+            isClicked = true;
+            base.OnMouseDown(mevent);
         }
+
+        protected override void OnMouseUp(MouseEventArgs mevent)
+        {
+            isClicked = false;
+            base.OnMouseUp(mevent);
+        }
+
+        protected override void OnTextChanged(EventArgs e)
+        {
+            base.OnTextChanged(e);
+            this.AutoSize = true;
+        }
+
+        protected override void OnParentFontChanged(EventArgs e)
+        {
+            base.OnParentFontChanged(e);
+            this.AutoSize = true;
+        }
+
+        #endregion
     }
 }

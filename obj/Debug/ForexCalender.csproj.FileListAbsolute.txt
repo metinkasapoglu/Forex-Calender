@@ -1,0 +1,10 @@
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\bin\Debug\Forex Calender.exe.config
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\bin\Debug\Forex Calender.exe
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\bin\Debug\Forex Calender.pdb
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\ForexCalender.csproj.AssemblyReference.cache
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\ForexCalender.MainForm.resources
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\ForexCalender.Properties.Resources.resources
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\ForexCalender.csproj.GenerateResource.cache
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\ForexCalender.csproj.CoreCompileInputs.cache
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\Forex Calender.exe
+C:\Users\Stronger\Documents\Coding\C#\Projects\_GitHub\Forex-Calender\obj\Debug\Forex Calender.pdb

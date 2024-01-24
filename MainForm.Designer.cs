@@ -468,7 +468,7 @@ namespace ForexCalender
             // btnCheck
             // 
             this.btnCheck.BackColor = System.Drawing.Color.Gray;
-            this.btnCheck.BorderRadius = 8;
+            this.btnCheck._BorderRadius = 8;
             this.btnCheck.FlatAppearance.BorderSize = 0;
             this.btnCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -680,7 +680,7 @@ namespace ForexCalender
             // btnWeek
             // 
             this.btnWeek.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnWeek.BorderRadius = 8;
+            this.btnWeek._BorderRadius = 8;
             this.btnWeek.FlatAppearance.BorderSize = 0;
             this.btnWeek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWeek.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -696,7 +696,7 @@ namespace ForexCalender
             // btnToday
             // 
             this.btnToday.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnToday.BorderRadius = 8;
+            this.btnToday._BorderRadius = 8;
             this.btnToday.FlatAppearance.BorderSize = 0;
             this.btnToday.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -712,7 +712,7 @@ namespace ForexCalender
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn7.BorderRadius = 8;
+            this.btn7._BorderRadius = 8;
             this.btn7.FlatAppearance.BorderSize = 0;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -728,7 +728,7 @@ namespace ForexCalender
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn6.BorderRadius = 8;
+            this.btn6._BorderRadius = 8;
             this.btn6.FlatAppearance.BorderSize = 0;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -744,7 +744,7 @@ namespace ForexCalender
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn5.BorderRadius = 8;
+            this.btn5._BorderRadius = 8;
             this.btn5.FlatAppearance.BorderSize = 0;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -760,7 +760,7 @@ namespace ForexCalender
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn4.BorderRadius = 8;
+            this.btn4._BorderRadius = 8;
             this.btn4.FlatAppearance.BorderSize = 0;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -776,7 +776,7 @@ namespace ForexCalender
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn3.BorderRadius = 8;
+            this.btn3._BorderRadius = 8;
             this.btn3.FlatAppearance.BorderSize = 0;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -792,7 +792,7 @@ namespace ForexCalender
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn2.BorderRadius = 8;
+            this.btn2._BorderRadius = 8;
             this.btn2.FlatAppearance.BorderSize = 0;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -808,7 +808,7 @@ namespace ForexCalender
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btn1.BorderRadius = 8;
+            this.btn1._BorderRadius = 8;
             this.btn1.FlatAppearance.BorderSize = 0;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
