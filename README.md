@@ -6,3 +6,4 @@
 <p>Saves the XML file taken from the site "https://nfs.faireconomy.media/ff_calendar_thisweek.xml" as a list.</p>
 <p>News of the whole week or any day of the week can be extracted from this list.</p>
 <p>You can categorize the pairs by pressing the &gt; button in the upper right corner of the application.</p>
+<p>The time is set according to Turkey.</p>
